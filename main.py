@@ -21,7 +21,7 @@ def send_welcome(message):
         bot.send_photo(
             message.chat.id,
             photo,
-            caption=f"Hey..! {user_fullname}❤️\n\nSend me any image, and I'll upload it to Telegraph and provide you a direct link.\n\nSHARE & SUPPORT\n@TADxBotz ❤️"
+            caption=f"𝐇𝐞𝐲..! {user_fullname} ❤️\n\n𝐒𝐞𝐧𝐝 𝐦𝐞 𝐚𝐧𝐲 𝐢𝐦𝐚𝐠𝐞, 𝐚𝐧𝐝 𝐈'𝐥𝐥 𝐮𝐩𝐥𝐨𝐚𝐝 𝐢𝐭 𝐭𝐨 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐩𝐡 𝐚𝐧𝐝 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐲𝐨𝐮 𝐚 𝐝𝐢𝐫𝐞𝐜𝐭 𝐥𝐢𝐧𝐤.\n\n𝐒𝐇𝐀𝐑𝐄 & 𝐒𝐔𝐏𝐏𝐎𝐑𝐓\n@𝐓𝐀𝐃𝐱𝐁𝐨𝐭𝐳 ❤️"
         )
 
 # Handler for receiving photo messages
@@ -29,7 +29,7 @@ def send_welcome(message):
 def handle_image(message):
     try:
         # Send a "Please wait" message
-        wait_message = bot.reply_to(message, "Please wait, your image is uploading...")
+        wait_message = bot.reply_to(message, "𝐏𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭, 𝐲𝐨𝐮𝐫 𝐢𝐦𝐚𝐠𝐞 𝐢𝐬 𝐮𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠...")
 
         # Get the image file ID
         file_id = message.photo[-1].file_id
@@ -55,10 +55,10 @@ def handle_image(message):
             
             # Prepare the message
             message_text = (
-                f"Image uploaded successfully:\n\n"
-                f"1st:\n{uploaded_url}\n\n"
-                f"2nd:\nhttp://telegra.ph/file/{uploaded_filename}\n\n"
-                f"Join @TADxBotz ❤️"
+                f"𝐈𝐦𝐚𝐠𝐞 𝐮𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲::\n\n"
+                f"𝟏𝐬𝐭:\n{uploaded_url}\n\n"
+                f"2𝐧𝐝:\nhttp://telegra.ph/file/{uploaded_filename}\n\n"
+                f"𝐉𝐨𝐢𝐧 @TADxBotz ❤️"
             )
             
             # Reply to the user without showing preview
@@ -79,7 +79,7 @@ def handle_image(message):
 # Handler for unsupported file types
 @bot.message_handler(content_types=['document', 'audio', 'video', 'voice', 'sticker'])
 def handle_other_files(message):
-    bot.reply_to(message, "Please send only images. Other file types are not supported.")
+    bot.reply_to(message, "𝐏𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐨𝐧𝐥𝐲 𝐢𝐦𝐚𝐠𝐞𝐬. 𝐎𝐭𝐡𝐞𝐫 𝐟𝐢𝐥𝐞 𝐭𝐲𝐩𝐞𝐬 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝.")
 
 # Start the bot
 bot.polling()

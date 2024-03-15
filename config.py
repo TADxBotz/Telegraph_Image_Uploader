@@ -1,0 +1,5 @@
+# config.py
+
+TELEGRAM_BOT_TOKEN = '6378130590:AAEWnckMoWk3AERAtCaUzWNCiVyKvUSrMQ4'
+
+IMG_PATH = "wlcm.png"

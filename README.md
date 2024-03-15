@@ -10,7 +10,7 @@ Copy code
 ![GitHub license](https://img.shields.io/github/license/devilxsam/Telegraph_Image_Uploader?style=flat-square)
 
 ```diff
-- Welcome to the TELEGRAPH UPLOAD BOT -
+- Welcome to the TELEGRAPH IMAGE UPLOADER BOT-
 + --== Powered by Python & TeleBot ==--
 Description
 The TELEGRAPH UPLOAD BOT is a powerful Telegram bot written in Python using the TeleBot library. It allows users to upload images to Telegraph and receive direct links to share.

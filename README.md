@@ -2,7 +2,7 @@ Certainly! Below is a unique description of the bot for your GitHub README.md us
 
 markdown
 Copy code
-# 🤖 TELEGRAPH UPLOAD BOT 🚀
+# 🤖 TELEGRAPH IMAGE UPLOADER BOT 🚀
 
 ![GitHub stars](https://img.shields.io/github/stars/devilxsam/Telegraph_Image_Uploader?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/devilxsam/Telegraph_Image_Uploader?style=flat-square)

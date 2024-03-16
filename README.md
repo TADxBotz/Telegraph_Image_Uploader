@@ -25,7 +25,7 @@ Usage
 Setup Instructions
 Copy code
 1. Clone the repository:
-   git clone https://github.com/yourusername/telegraph-upload-bot.git
+   git clone https://github.com/TADxBotz/telegraph-upload-bot.git
 
 2. Install dependencies:
    pip install -r requirements.txt
@@ -33,7 +33,7 @@ Copy code
 3. Configure your Telegram bot token in config.py.
    
 4. Run the bot:
-   python bot.py
+   python main.py
 
 Contributors
 [

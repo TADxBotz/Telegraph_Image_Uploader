@@ -24,7 +24,7 @@
   <li>Clone this repository to your local machine:</li>
 </ol>
 
-<pre><code>git clone https://github.com/your-username/telegram-image-uploader-bot.git
+<pre><code>git clone https://github.com/TADxBotz/Telegraph_Image_Uploader
 </code></pre>
 
 <ol start="2">
@@ -53,7 +53,7 @@
 <h2 id="features">Features</h2>
 
 <ul>
-  <li>Upload images to Te.legra.ph and get direct links.</li>
+  <li>Upload images to Telegraph and get direct links.</li>
   <li>Personalized welcome message with an image.</li>
   <li>Supports only image file types.</li>
 </ul>

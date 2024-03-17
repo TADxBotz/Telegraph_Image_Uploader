@@ -39,7 +39,7 @@
   <li>Run the bot script:</li>
 </ol>
 
-<pre><code>python bot.py
+<pre><code>python main.py
 </code></pre>
 
 <h2 id="usage">Usage</h2>
